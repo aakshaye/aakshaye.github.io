@@ -157,7 +157,6 @@ h1.name {
 	font-weight: 300;
 	margin-top: 60px;
 	line-height: 55px;
-	padding: 10px 20px;
 }
 
 .headline {
@@ -173,7 +172,6 @@ h1.name {
 	vertical-align: top;
 	display: inline-block;
 	width: 49.7%;
-	height: 50px;
 }
 
 .section-title {
@@ -186,10 +184,10 @@ h1.name {
 	margin: 30px 0;
 }
 
-.list-card .exp , .list-card div{
+/*.list-card .exp , .list-card div{
 	display: inline-block;
 	vertical-align: top;
-}
+}*/
 
 .list-card .exp {
 	margin-right: 15px;
@@ -198,9 +196,9 @@ h1.name {
 	/*width: 100px;*/
 }
 
-.list-card div {
+/*.list-card div {
 	width: 70%;
-}
+}*/
 
 .list-card h3 {
 	font-size: 20px;
@@ -210,7 +208,7 @@ h1.name {
 	margin-bottom: 8px;
 }
 
-.list-card div span {
+.list-card div {
 	font-size: 16px;
 	color: #81899C;
 	line-height: 22px;

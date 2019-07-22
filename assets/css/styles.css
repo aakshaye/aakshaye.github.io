@@ -78,8 +78,8 @@ footer {
 
 /* Profile pic */
 .pic {
-	width: 150px;
-	height: 140px;
+	width: 163px;
+    height: 150px;
 }
 
 /*Header section*/
@@ -87,7 +87,7 @@ footer {
 .container {
 	max-width: 1200px;
 	height: auto;
-	margin: 60px auto;
+	margin: 30px auto;
 }
 
 .hero {
@@ -101,12 +101,16 @@ footer {
 }
 .heading .photo {
 	float: left;
-	width: 16%
+	width: 16%;
+	overflow: hidden;
+	padding: 0 10px;
 }
 .heading .name_title {
 	position: relative;
 	float: left;
 	width: 55%;
+	text-align: center;
+	overflow: hidden;
 }
 .titles {
 	position: relative;
@@ -134,6 +138,7 @@ h1.name {
 	float: left;
 	width: 24%;
 	text-align: center;
+	overflow: hidden;
 }
 .social {
 	position: relative;
@@ -483,10 +488,27 @@ li .description {
 	}
 }
 
-
+*/
 @media(max-width: 425px) {
+	.heading .photo, .heading .name_title {
+		width: 100%;
+		text-align: center;
+	}
+
+
 	h1.name {
 		font-size: 40px;
+		float: none;
+	}
+
+	.contact {
+		width: 100%;
+	}
+
+	.social .icons {
+		width: 50px;
+		float: left;
+		padding: 10px 6px;
 	}
 
 	.card , .sections {
@@ -494,33 +516,37 @@ li .description {
 		height: auto;
 		margin: 10px 0;
 		float: left;
+		text-align: center;
 	}
 
 	.timeline{
 		display: none;
-		}
+	}
 
-	.job-title {
-		position: absolute;
+	.titles {
+		position: relative;
 		font-size: 15px;
-		top: -40px;
-		right: 20px;
-		padding: 10px
+		padding: 10px;
 	}
 
 	.lead {
 		margin-top: 15px;
 		font-size: 20px;
 		line-height: 28px;
+		text-align: center;
+		
 	}
 	.container {
 		margin: 0px;
 		padding: 0 15px;
 	}
 	footer {
-		margin-top: 2050px;
+		margin-bottom: 50px;
 	}
-	} */
+	.main-section {
+		margin-bottom: 50px;
+	}
+} 
 
 
-/* End of all :P*/
+/* End of all :P */

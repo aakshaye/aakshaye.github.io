@@ -104,6 +104,7 @@ footer {
 	width: 16%;
 	overflow: hidden;
 	padding: 0 10px;
+	margin-bottom: 15px;
 }
 .heading .name_title {
 	position: relative;
@@ -111,6 +112,7 @@ footer {
 	width: 55%;
 	text-align: center;
 	overflow: hidden;
+	margin-top: 10px;
 }
 .titles {
 	position: relative;
@@ -139,6 +141,7 @@ h1.name {
 	width: 24%;
 	text-align: center;
 	overflow: hidden;
+	margin-top: 20px;
 }
 .social {
 	position: relative;
@@ -453,8 +456,42 @@ li .description {
 		margin-top: 250px;
 	}
 }
-
+*/
 @media(max-width: 768px){
+	.heading .photo, .heading .name_title {
+		width: 100%;
+		text-align: center;
+	}
+
+
+	h1.name {
+		font-size: 38px;
+		float: none;
+	}
+
+	.contact {
+		width: 100%;
+		margin: 0 114px;
+	}
+
+	.social .icons {
+		width: 44px;
+		float: left;
+		padding: 10px 2px 10px 10px;
+	}
+	.titles {
+		position: relative;
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.lead {
+		margin-top: 15px;
+		font-size: 25px;
+		line-height: 28px;
+		text-align: center;
+		
+	}
 	.container {
 		padding: 15px;
 		margin: 0px auto;
@@ -470,11 +507,13 @@ li .description {
 	.card h2 {
 		font-size: 70px;
 	}
-		.card , .sections {
+	
+	.card , .sections {
 		width: 100%;
 		height: auto;
 		margin: 10px 0;
 		float: left;
+		text-align: center;
 	}
 
 	.timeline{
@@ -488,7 +527,7 @@ li .description {
 	}
 }
 
-*/
+
 @media(max-width: 425px) {
 	.heading .photo, .heading .name_title {
 		width: 100%;
@@ -497,18 +536,19 @@ li .description {
 
 
 	h1.name {
-		font-size: 40px;
+		font-size: 38px;
 		float: none;
 	}
 
 	.contact {
 		width: 100%;
+		margin-top: 0;
 	}
 
 	.social .icons {
-		width: 50px;
+		width: 44px;
 		float: left;
-		padding: 10px 6px;
+		padding: 10px 2px 10px 10px;
 	}
 
 	.card , .sections {
@@ -537,14 +577,14 @@ li .description {
 		
 	}
 	.container {
-		margin: 0px;
+		margin: 20px 0px;
 		padding: 0 15px;
 	}
 	footer {
 		margin-bottom: 50px;
 	}
 	.main-section {
-		margin-bottom: 50px;
+		margin: 20px 0px 25px 0px;
 	}
 } 
 

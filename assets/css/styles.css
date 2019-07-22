@@ -457,7 +457,7 @@ li .description {
 	}
 }
 */
-@media(max-width: 768px){
+@media(max-width: 768px) and (min-width: 500px) {
 	.heading .photo, .heading .name_title {
 		width: 100%;
 		text-align: center;
@@ -471,7 +471,7 @@ li .description {
 
 	.contact {
 		width: 100%;
-		margin: 0 114px;
+		margin: 0 184px;
 	}
 
 	.social .icons {
@@ -483,6 +483,7 @@ li .description {
 		position: relative;
 		font-size: 20px;
 		padding: 10px;
+		float: none;
 	}
 
 	.lead {

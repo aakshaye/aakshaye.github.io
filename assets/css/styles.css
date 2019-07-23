@@ -307,17 +307,16 @@ h1.name {
 
 /* Timeline styles*/
 
-
-ol {
+.timeline-section ol {
 	position: relative;
 	display: block;
-	margin: 100px 0;
+	margin: 50px 0 100px 0;
 	height: 2px;
 	background: #EEF0F7;
 
 }
-ol::before,
-ol::after {
+
+.timeline-section ol::before, ol::after {
 	content: "";
 	position: absolute;
 	top: -10px;
@@ -327,26 +326,25 @@ ol::after {
   	border-radius: 10px;
 	border: 0px solid #31708F;
 }
-ol::before {
+
+.timeline-section ol::before {
 	left: -5px;
 }
-ol::after {
+.timeline-section ol::after {
 	right: -10px;
 	border: 0px solid transparent;
 	border-right: 0;
 	border-left: 20px solid #31708F;
   	border-radius: 3px;
 }
-
-/* ---- Timeline elements ---- 
-li {
+.timeline-section li {
 	position: relative;
-	display: inline-block;
+	/*display: inline-block;*/
 	float: left;
 	width: 25%;
   	height: 50px;
 }
-li .line {
+.timeline-section li .line {
   position: absolute;
   top: -47px;
   left: 1%;
@@ -354,7 +352,7 @@ li .line {
   font-weight: 600;
   color: #04143A;
 }
-li .point {
+.timeline-section li .point {
 	content: "";
 	top: -7px;
 	left: 0%;
@@ -366,7 +364,7 @@ li .point {
 	background: #4A90E2;
   position: absolute;
 }
-li .description {
+.timeline-section li .description {
   display: none;
   padding: 10px 0;
   margin-top: 20px;
@@ -379,7 +377,7 @@ li .description {
   line-height: 25px;
   color: #5B6A9A;
 }
-.description::before {
+.timeline-section .description::before {
   content: '';
   width: 0; 
   height: 0; 
@@ -390,20 +388,23 @@ li .description {
   top: -5px;
   left: 43%;
 }
-
-
-.timeline .date{
+.timeline-section .timeline .date{
 	font-size: 14px;
 	color: #81899C;
 	font-weight: 300;
 }
 */
 /* ---- Hover effects ---- */
-li:hover {
+.timeline-section li:hover {
   color: #48A4D2;
 }
-li .description {
+
+.timeline-section li .description {
   display: block;
+}
+
+.resume {
+	margin-top: 20px;
 }
 
 /*timeline ends*/
@@ -517,12 +518,12 @@ li .description {
 		text-align: center;
 	}
 
-	.timeline{
+	.timeline-section{
 		border: none;
 		background-color: rgba(0,0,0,0);
 	}
 
-	.timeline li{
+	.timeline-section li{
 		margin-top: 70px;
 		height: 150px;
 	}

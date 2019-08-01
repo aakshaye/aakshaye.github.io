@@ -60,7 +60,7 @@ table {
 
 p {
 	color: #15171a;
-	font-size: 17;
+	font-size: 17px;
 	line-height: 31px;
 }
 
@@ -309,11 +309,12 @@ h1.name {
 
 .timeline-section ol {
 	position: relative;
-	display: block;
-	margin: 50px 0 100px 0;
-	height: 2px;
+    display: block;
+    margin: 50px 0 100px 0;
+    height: 60px;
 	background: #EEF0F7;
-
+	float: left;
+	width: 50%;
 }
 
 .timeline-section ol::before, ol::after {
@@ -341,7 +342,7 @@ h1.name {
 	position: relative;
 	/*display: inline-block;*/
 	float: left;
-	width: 25%;
+	width: 33%;
   	height: 50px;
 }
 .timeline-section li .line {
@@ -392,6 +393,9 @@ h1.name {
 	font-size: 14px;
 	color: #81899C;
 	font-weight: 300;
+}
+.timeline-section .timeline-2 li{
+	width: 50%;
 }
 */
 /* ---- Hover effects ---- */
@@ -512,7 +516,7 @@ h1.name {
 	
 	.card , .sections {
 		width: 100%;
-		height: auto;
+		height: auto;	
 		margin: 10px 0;
 		float: left;
 		text-align: center;
@@ -561,8 +565,10 @@ h1.name {
 		text-align: center;
 	}
 
-	.timeline{
-		display: none;
+	.timeline-section ol{
+		width: 100%;
+		height: 80px;
+		text-align: center;
 	}
 
 	.titles {

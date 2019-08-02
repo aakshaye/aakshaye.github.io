@@ -368,7 +368,7 @@ h1.name {
 .timeline-section li .description {
   display: none;
   padding: 10px 0;
-  margin-top: 20px;
+  margin-top: 1px;
   position: relative;
   font-weight: normal;
   z-index: 1;

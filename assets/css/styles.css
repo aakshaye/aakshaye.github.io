@@ -85,7 +85,7 @@ footer {
 /*Header section*/
 
 .container {
-	max-width: 1200px;
+	max-width: 1400px;
 	height: auto;
 	margin: 30px auto;
 }
@@ -96,7 +96,8 @@ footer {
 }
 
 .heading {
-	float: left;
+	display: flex;
+    flex-direction: row;
 	width: 100%;
 }
 .heading .photo {
@@ -107,11 +108,8 @@ footer {
 	margin-bottom: 15px;
 }
 .heading .name_title {
-	position: relative;
-	float: left;
 	width: 55%;
 	text-align: center;
-	overflow: hidden;
 	margin-top: 10px;
 }
 .titles {
@@ -139,17 +137,17 @@ h1.name {
 .contact {
 	float: left;
 	width: 24%;
-	overflow: hidden;
 	margin-top: 20px;
 }
 .social {
 	position: relative;
-	width: 89%;
-    margin: auto;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
 }
 .icons {
 	width: 50px;
-    float: left;
     padding: 6px 15px;
 }
 /*.contact .email {
@@ -311,7 +309,7 @@ h1.name {
 	position: relative;
     display: block;
     margin: 50px 0 50px 0;
-    height: 60px;
+    height: 71px;
 	background: #EEF0F7;
 	float: left;
 	width: 50%;
@@ -476,13 +474,7 @@ h1.name {
 
 	.contact {
 		width: 100%;
-		margin: 0 184px;
-	}
-
-	.social .icons {
-		width: 44px;
-		float: left;
-		padding: 10px 2px 10px 10px;
+		margin: 0 auto;
 	}
 	.titles {
 		position: relative;
@@ -552,7 +544,7 @@ h1.name {
 	}
 
 	.social .icons {
-		width: 37px;
+		width: 33px;
     	float: left;
     	padding: 10px 8px 10px 6px;
 	}
